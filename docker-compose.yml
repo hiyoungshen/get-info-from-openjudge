@@ -1,0 +1,6 @@
+version: '3'
+services:
+  get-info-from-openjudge:
+    image: hiyoungshen/get-info-from-openjudge  # 使用你构建的 Flask Docker 镜像名称
+    ports:
+      - "3002:3002"  # 将容器内部的端口映射到主机的端口
